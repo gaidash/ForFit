@@ -1,0 +1,748 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7436B5161A4AB94A00075BB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7436B5151A4AB94A00075BB7 /* main.m */; };
+		7436B5191A4AB94A00075BB7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7436B5181A4AB94A00075BB7 /* AppDelegate.m */; };
+		7436B5241A4AB94A00075BB7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7436B5221A4AB94A00075BB7 /* LaunchScreen.xib */; };
+		7436B5301A4AB94A00075BB7 /* ForFitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7436B52F1A4AB94A00075BB7 /* ForFitTests.m */; };
+		743D0A761A5921E900E50B62 /* CardioExercise.m in Sources */ = {isa = PBXBuildFile; fileRef = 743D0A751A5921E900E50B62 /* CardioExercise.m */; };
+		743D0A791A59254100E50B62 /* CardioDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 743D0A781A59254100E50B62 /* CardioDetailViewController.m */; };
+		743D0A831A59392100E50B62 /* MeasurementsWindowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 743D0A811A59392100E50B62 /* MeasurementsWindowViewController.m */; };
+		743D0A841A59392100E50B62 /* MeasurementsWindowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 743D0A821A59392100E50B62 /* MeasurementsWindowViewController.xib */; };
+		744799AE1A5BF75300EFB145 /* MainWindowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 744799AD1A5BF75300EFB145 /* MainWindowViewController.m */; };
+		744799B31A5BF92D00EFB145 /* MainWindowTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 744799B11A5BF92D00EFB145 /* MainWindowTableViewCell.xib */; };
+		74610FC41A5152B0007C274F /* FoodDetailWindowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74610FC21A5152B0007C274F /* FoodDetailWindowViewController.m */; };
+		74610FC51A5152B0007C274F /* FoodDetailWindowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74610FC31A5152B0007C274F /* FoodDetailWindowViewController.xib */; };
+		749469391A57C4BB003FB5E3 /* WeightRepsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 749469381A57C4BB003FB5E3 /* WeightRepsTableViewCell.m */; };
+		74A0562F1A63D31400156CD8 /* ForFit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 74A0562D1A63D31400156CD8 /* ForFit.xcdatamodeld */; };
+		74A056341A63D40600156CD8 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74A056331A63D40600156CD8 /* CoreData.framework */; };
+		74A056371A63E21F00156CD8 /* OneDayInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A056361A63E21F00156CD8 /* OneDayInformation.m */; };
+		74A0563B1A63F6BA00156CD8 /* FoodWindowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A0563A1A63F6BA00156CD8 /* FoodWindowViewController.m */; };
+		74A0563E1A63F75200156CD8 /* CardioTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A0563D1A63F75200156CD8 /* CardioTableViewCell.m */; };
+		74A056401A63F7A400156CD8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74A0563F1A63F7A400156CD8 /* Images.xcassets */; };
+		74A0564A1A63F8BA00156CD8 /* Cardio.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 74A056411A63F8BA00156CD8 /* Cardio.jpg */; };
+		74A0564B1A63F8BA00156CD8 /* CardioIcon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 74A056421A63F8BA00156CD8 /* CardioIcon.jpg */; };
+		74A0564C1A63F8BA00156CD8 /* Food.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 74A056431A63F8BA00156CD8 /* Food.jpg */; };
+		74A0564D1A63F8BA00156CD8 /* FoodIcon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 74A056441A63F8BA00156CD8 /* FoodIcon.jpg */; };
+		74A0564E1A63F8BA00156CD8 /* Launch screen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 74A056451A63F8BA00156CD8 /* Launch screen.jpg */; };
+		74A0564F1A63F8BA00156CD8 /* Measurements.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 74A056461A63F8BA00156CD8 /* Measurements.jpg */; };
+		74A056501A63F8BA00156CD8 /* MeasurementsIcon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 74A056471A63F8BA00156CD8 /* MeasurementsIcon.jpg */; };
+		74A056511A63F8BA00156CD8 /* Weight training.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 74A056481A63F8BA00156CD8 /* Weight training.jpg */; };
+		74A056521A63F8BA00156CD8 /* WeightTrainingIcon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 74A056491A63F8BA00156CD8 /* WeightTrainingIcon.jpg */; };
+		74AAF3CE1A568C8D0035A953 /* NameFieldTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AAF3CD1A568C8D0035A953 /* NameFieldTableViewCell.m */; };
+		74AAF3D11A56915F0035A953 /* NoteFieldTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AAF3D01A56915F0035A953 /* NoteFieldTableViewCell.m */; };
+		74ACBF491A5ABB580083CD27 /* MeasurementsPhotoScrollViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74ACBF481A5ABB580083CD27 /* MeasurementsPhotoScrollViewController.xib */; };
+		74ACBF4C1A5ABC150083CD27 /* MeasurementsPhotoScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74ACBF4B1A5ABC150083CD27 /* MeasurementsPhotoScrollViewController.m */; };
+		74B0C6791A55069D00751CEA /* HeavyWeightExercise.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B0C6781A55069D00751CEA /* HeavyWeightExercise.m */; };
+		74B0C67C1A55206C00751CEA /* HeavyWeightDetailWindowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B0C67B1A55206C00751CEA /* HeavyWeightDetailWindowViewController.m */; };
+		74C83C621A4E68260093D5E0 /* TrainingTypeChoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C83C601A4E68260093D5E0 /* TrainingTypeChoiceViewController.m */; };
+		74C83C631A4E68260093D5E0 /* TrainingTypeChoiceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74C83C611A4E68260093D5E0 /* TrainingTypeChoiceViewController.xib */; };
+		74C83C731A4E7F3F0093D5E0 /* HeavyWeightWindowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C83C711A4E7F3F0093D5E0 /* HeavyWeightWindowViewController.m */; };
+		74C83C741A4E7F3F0093D5E0 /* HeavyWeightWindowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74C83C721A4E7F3F0093D5E0 /* HeavyWeightWindowViewController.xib */; };
+		74EE25A61A5CF6A7008949F6 /* MainWindowTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 74EE25A51A5CF6A7008949F6 /* MainWindowTableViewCell.m */; };
+		74EE25B21A5D277E008949F6 /* AllInformationSharedStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 74EE25B11A5D277E008949F6 /* AllInformationSharedStore.m */; };
+		74F4035C1A4FCF2000772BFD /* Food.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F4035B1A4FCF2000772BFD /* Food.m */; };
+		74FDA76F1A5AA4AD002E559F /* MeasurementsFieldTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 74FDA76E1A5AA4AD002E559F /* MeasurementsFieldTableViewCell.m */; };
+		74FDA7731A5AAFD0002E559F /* Measurements.m in Sources */ = {isa = PBXBuildFile; fileRef = 74FDA7721A5AAFD0002E559F /* Measurements.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7436B52A1A4AB94A00075BB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7436B5081A4AB94A00075BB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7436B50F1A4AB94A00075BB7;
+			remoteInfo = ForFit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7436B5101A4AB94A00075BB7 /* ForFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7436B5141A4AB94A00075BB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7436B5151A4AB94A00075BB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7436B5171A4AB94A00075BB7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7436B5181A4AB94A00075BB7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7436B5231A4AB94A00075BB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7436B5291A4AB94A00075BB7 /* ForFitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForFitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7436B52E1A4AB94A00075BB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7436B52F1A4AB94A00075BB7 /* ForFitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForFitTests.m; sourceTree = "<group>"; };
+		743D0A741A5921E900E50B62 /* CardioExercise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardioExercise.h; sourceTree = "<group>"; };
+		743D0A751A5921E900E50B62 /* CardioExercise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardioExercise.m; sourceTree = "<group>"; };
+		743D0A771A59254100E50B62 /* CardioDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardioDetailViewController.h; sourceTree = "<group>"; };
+		743D0A781A59254100E50B62 /* CardioDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardioDetailViewController.m; sourceTree = "<group>"; };
+		743D0A801A59392000E50B62 /* MeasurementsWindowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeasurementsWindowViewController.h; sourceTree = "<group>"; };
+		743D0A811A59392100E50B62 /* MeasurementsWindowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeasurementsWindowViewController.m; sourceTree = "<group>"; };
+		743D0A821A59392100E50B62 /* MeasurementsWindowViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MeasurementsWindowViewController.xib; sourceTree = "<group>"; };
+		744799AC1A5BF75300EFB145 /* MainWindowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindowViewController.h; sourceTree = "<group>"; };
+		744799AD1A5BF75300EFB145 /* MainWindowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindowViewController.m; sourceTree = "<group>"; };
+		744799B11A5BF92D00EFB145 /* MainWindowTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindowTableViewCell.xib; sourceTree = "<group>"; };
+		74610FC11A5152B0007C274F /* FoodDetailWindowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodDetailWindowViewController.h; sourceTree = "<group>"; };
+		74610FC21A5152B0007C274F /* FoodDetailWindowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodDetailWindowViewController.m; sourceTree = "<group>"; };
+		74610FC31A5152B0007C274F /* FoodDetailWindowViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FoodDetailWindowViewController.xib; sourceTree = "<group>"; };
+		749469371A57C4BB003FB5E3 /* WeightRepsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeightRepsTableViewCell.h; sourceTree = "<group>"; };
+		749469381A57C4BB003FB5E3 /* WeightRepsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeightRepsTableViewCell.m; sourceTree = "<group>"; };
+		74A0562E1A63D31400156CD8 /* ForFit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ForFit.xcdatamodel; sourceTree = "<group>"; };
+		74A056331A63D40600156CD8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		74A056351A63E21F00156CD8 /* OneDayInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneDayInformation.h; sourceTree = "<group>"; };
+		74A056361A63E21F00156CD8 /* OneDayInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneDayInformation.m; sourceTree = "<group>"; };
+		74A056391A63F6BA00156CD8 /* FoodWindowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodWindowViewController.h; sourceTree = "<group>"; };
+		74A0563A1A63F6BA00156CD8 /* FoodWindowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodWindowViewController.m; sourceTree = "<group>"; };
+		74A0563C1A63F75200156CD8 /* CardioTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardioTableViewCell.h; sourceTree = "<group>"; };
+		74A0563D1A63F75200156CD8 /* CardioTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardioTableViewCell.m; sourceTree = "<group>"; };
+		74A0563F1A63F7A400156CD8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		74A056411A63F8BA00156CD8 /* Cardio.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Cardio.jpg; path = ForFit/Pictures/Cardio.jpg; sourceTree = "<group>"; };
+		74A056421A63F8BA00156CD8 /* CardioIcon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = CardioIcon.jpg; path = ForFit/Pictures/CardioIcon.jpg; sourceTree = "<group>"; };
+		74A056431A63F8BA00156CD8 /* Food.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Food.jpg; path = ForFit/Pictures/Food.jpg; sourceTree = "<group>"; };
+		74A056441A63F8BA00156CD8 /* FoodIcon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = FoodIcon.jpg; path = ForFit/Pictures/FoodIcon.jpg; sourceTree = "<group>"; };
+		74A056451A63F8BA00156CD8 /* Launch screen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Launch screen.jpg"; path = "ForFit/Pictures/Launch screen.jpg"; sourceTree = "<group>"; };
+		74A056461A63F8BA00156CD8 /* Measurements.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Measurements.jpg; path = ForFit/Pictures/Measurements.jpg; sourceTree = "<group>"; };
+		74A056471A63F8BA00156CD8 /* MeasurementsIcon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = MeasurementsIcon.jpg; path = ForFit/Pictures/MeasurementsIcon.jpg; sourceTree = "<group>"; };
+		74A056481A63F8BA00156CD8 /* Weight training.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Weight training.jpg"; path = "ForFit/Pictures/Weight training.jpg"; sourceTree = "<group>"; };
+		74A056491A63F8BA00156CD8 /* WeightTrainingIcon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = WeightTrainingIcon.jpg; path = ForFit/Pictures/WeightTrainingIcon.jpg; sourceTree = "<group>"; };
+		74AAF3CC1A568C8D0035A953 /* NameFieldTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NameFieldTableViewCell.h; sourceTree = "<group>"; };
+		74AAF3CD1A568C8D0035A953 /* NameFieldTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NameFieldTableViewCell.m; sourceTree = "<group>"; };
+		74AAF3CF1A56915F0035A953 /* NoteFieldTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteFieldTableViewCell.h; sourceTree = "<group>"; };
+		74AAF3D01A56915F0035A953 /* NoteFieldTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteFieldTableViewCell.m; sourceTree = "<group>"; };
+		74ACBF481A5ABB580083CD27 /* MeasurementsPhotoScrollViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MeasurementsPhotoScrollViewController.xib; sourceTree = "<group>"; };
+		74ACBF4A1A5ABC150083CD27 /* MeasurementsPhotoScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeasurementsPhotoScrollViewController.h; sourceTree = "<group>"; };
+		74ACBF4B1A5ABC150083CD27 /* MeasurementsPhotoScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeasurementsPhotoScrollViewController.m; sourceTree = "<group>"; };
+		74B0C6771A55069D00751CEA /* HeavyWeightExercise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeavyWeightExercise.h; sourceTree = "<group>"; };
+		74B0C6781A55069D00751CEA /* HeavyWeightExercise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeavyWeightExercise.m; sourceTree = "<group>"; };
+		74B0C67A1A55206C00751CEA /* HeavyWeightDetailWindowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeavyWeightDetailWindowViewController.h; sourceTree = "<group>"; };
+		74B0C67B1A55206C00751CEA /* HeavyWeightDetailWindowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeavyWeightDetailWindowViewController.m; sourceTree = "<group>"; };
+		74C83C5F1A4E68260093D5E0 /* TrainingTypeChoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainingTypeChoiceViewController.h; sourceTree = "<group>"; };
+		74C83C601A4E68260093D5E0 /* TrainingTypeChoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainingTypeChoiceViewController.m; sourceTree = "<group>"; };
+		74C83C611A4E68260093D5E0 /* TrainingTypeChoiceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TrainingTypeChoiceViewController.xib; sourceTree = "<group>"; };
+		74C83C701A4E7F3F0093D5E0 /* HeavyWeightWindowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeavyWeightWindowViewController.h; sourceTree = "<group>"; };
+		74C83C711A4E7F3F0093D5E0 /* HeavyWeightWindowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeavyWeightWindowViewController.m; sourceTree = "<group>"; };
+		74C83C721A4E7F3F0093D5E0 /* HeavyWeightWindowViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeavyWeightWindowViewController.xib; sourceTree = "<group>"; };
+		74EE25A41A5CF6A7008949F6 /* MainWindowTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindowTableViewCell.h; sourceTree = "<group>"; };
+		74EE25A51A5CF6A7008949F6 /* MainWindowTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindowTableViewCell.m; sourceTree = "<group>"; };
+		74EE25B01A5D277E008949F6 /* AllInformationSharedStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllInformationSharedStore.h; sourceTree = "<group>"; };
+		74EE25B11A5D277E008949F6 /* AllInformationSharedStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllInformationSharedStore.m; sourceTree = "<group>"; };
+		74F4035A1A4FCF2000772BFD /* Food.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Food.h; sourceTree = "<group>"; };
+		74F4035B1A4FCF2000772BFD /* Food.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Food.m; sourceTree = "<group>"; };
+		74FDA76D1A5AA4AD002E559F /* MeasurementsFieldTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeasurementsFieldTableViewCell.h; sourceTree = "<group>"; };
+		74FDA76E1A5AA4AD002E559F /* MeasurementsFieldTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeasurementsFieldTableViewCell.m; sourceTree = "<group>"; };
+		74FDA7711A5AAFD0002E559F /* Measurements.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Measurements.h; sourceTree = "<group>"; };
+		74FDA7721A5AAFD0002E559F /* Measurements.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Measurements.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7436B50D1A4AB94A00075BB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74A056341A63D40600156CD8 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7436B5261A4AB94A00075BB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7436B5071A4AB94A00075BB7 = {
+			isa = PBXGroup;
+			children = (
+				7436B5121A4AB94A00075BB7 /* ForFit */,
+				7436B52C1A4AB94A00075BB7 /* ForFitTests */,
+				7436B5111A4AB94A00075BB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7436B5111A4AB94A00075BB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7436B5101A4AB94A00075BB7 /* ForFit.app */,
+				7436B5291A4AB94A00075BB7 /* ForFitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7436B5121A4AB94A00075BB7 /* ForFit */ = {
+			isa = PBXGroup;
+			children = (
+				7436B5171A4AB94A00075BB7 /* AppDelegate.h */,
+				7436B5181A4AB94A00075BB7 /* AppDelegate.m */,
+				74EE25AF1A5D2643008949F6 /* All Infromation Shared Store */,
+				74A056291A63C60500156CD8 /* One Day Information */,
+				743D0A871A5941CD00E50B62 /* Main Window */,
+				743D0A8A1A59429200E50B62 /* TrainingTypeChoice */,
+				743D0A8C1A5942E800E50B62 /* Cardio */,
+				743D0A8D1A59431D00E50B62 /* HeavyWeight */,
+				743D0A8E1A59436000E50B62 /* Measurements */,
+				743D0A881A59421F00E50B62 /* Food */,
+				74C83C681A4E6E190093D5E0 /* Pictures */,
+				74A056381A63F25B00156CD8 /* Frameworks */,
+				74A0563F1A63F7A400156CD8 /* Images.xcassets */,
+				7436B5221A4AB94A00075BB7 /* LaunchScreen.xib */,
+				74A0562D1A63D31400156CD8 /* ForFit.xcdatamodeld */,
+				7436B5131A4AB94A00075BB7 /* Supporting Files */,
+			);
+			path = ForFit;
+			sourceTree = "<group>";
+		};
+		7436B5131A4AB94A00075BB7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7436B5141A4AB94A00075BB7 /* Info.plist */,
+				7436B5151A4AB94A00075BB7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7436B52C1A4AB94A00075BB7 /* ForFitTests */ = {
+			isa = PBXGroup;
+			children = (
+				7436B52F1A4AB94A00075BB7 /* ForFitTests.m */,
+				7436B52D1A4AB94A00075BB7 /* Supporting Files */,
+			);
+			path = ForFitTests;
+			sourceTree = "<group>";
+		};
+		7436B52D1A4AB94A00075BB7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7436B52E1A4AB94A00075BB7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		743D0A7D1A59259000E50B62 /* Cell for CardioDetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				74A0563C1A63F75200156CD8 /* CardioTableViewCell.h */,
+				74A0563D1A63F75200156CD8 /* CardioTableViewCell.m */,
+			);
+			name = "Cell for CardioDetailViewController";
+			sourceTree = "<group>";
+		};
+		743D0A871A5941CD00E50B62 /* Main Window */ = {
+			isa = PBXGroup;
+			children = (
+				744799AC1A5BF75300EFB145 /* MainWindowViewController.h */,
+				744799AD1A5BF75300EFB145 /* MainWindowViewController.m */,
+				744799B41A5BF93500EFB145 /* Cell for Main Window */,
+			);
+			name = "Main Window";
+			sourceTree = "<group>";
+		};
+		743D0A881A59421F00E50B62 /* Food */ = {
+			isa = PBXGroup;
+			children = (
+				74A056391A63F6BA00156CD8 /* FoodWindowViewController.h */,
+				74A0563A1A63F6BA00156CD8 /* FoodWindowViewController.m */,
+				74610FC11A5152B0007C274F /* FoodDetailWindowViewController.h */,
+				74610FC21A5152B0007C274F /* FoodDetailWindowViewController.m */,
+				74F4035A1A4FCF2000772BFD /* Food.h */,
+				74F4035B1A4FCF2000772BFD /* Food.m */,
+				74610FC31A5152B0007C274F /* FoodDetailWindowViewController.xib */,
+			);
+			name = Food;
+			sourceTree = "<group>";
+		};
+		743D0A8A1A59429200E50B62 /* TrainingTypeChoice */ = {
+			isa = PBXGroup;
+			children = (
+				74C83C5F1A4E68260093D5E0 /* TrainingTypeChoiceViewController.h */,
+				74C83C601A4E68260093D5E0 /* TrainingTypeChoiceViewController.m */,
+				74C83C611A4E68260093D5E0 /* TrainingTypeChoiceViewController.xib */,
+			);
+			name = TrainingTypeChoice;
+			sourceTree = "<group>";
+		};
+		743D0A8C1A5942E800E50B62 /* Cardio */ = {
+			isa = PBXGroup;
+			children = (
+				743D0A771A59254100E50B62 /* CardioDetailViewController.h */,
+				743D0A781A59254100E50B62 /* CardioDetailViewController.m */,
+				743D0A741A5921E900E50B62 /* CardioExercise.h */,
+				743D0A751A5921E900E50B62 /* CardioExercise.m */,
+				743D0A7D1A59259000E50B62 /* Cell for CardioDetailViewController */,
+			);
+			name = Cardio;
+			sourceTree = "<group>";
+		};
+		743D0A8D1A59431D00E50B62 /* HeavyWeight */ = {
+			isa = PBXGroup;
+			children = (
+				74C83C701A4E7F3F0093D5E0 /* HeavyWeightWindowViewController.h */,
+				74C83C711A4E7F3F0093D5E0 /* HeavyWeightWindowViewController.m */,
+				74B0C67A1A55206C00751CEA /* HeavyWeightDetailWindowViewController.h */,
+				74B0C67B1A55206C00751CEA /* HeavyWeightDetailWindowViewController.m */,
+				74B0C6771A55069D00751CEA /* HeavyWeightExercise.h */,
+				74B0C6781A55069D00751CEA /* HeavyWeightExercise.m */,
+				74C83C721A4E7F3F0093D5E0 /* HeavyWeightWindowViewController.xib */,
+				74AAF3DE1A5697C80035A953 /* Cells for HeavyWeightDetailWindowViewController */,
+			);
+			name = HeavyWeight;
+			sourceTree = "<group>";
+		};
+		743D0A8E1A59436000E50B62 /* Measurements */ = {
+			isa = PBXGroup;
+			children = (
+				743D0A801A59392000E50B62 /* MeasurementsWindowViewController.h */,
+				743D0A811A59392100E50B62 /* MeasurementsWindowViewController.m */,
+				74ACBF4A1A5ABC150083CD27 /* MeasurementsPhotoScrollViewController.h */,
+				74ACBF4B1A5ABC150083CD27 /* MeasurementsPhotoScrollViewController.m */,
+				74FDA7711A5AAFD0002E559F /* Measurements.h */,
+				74FDA7721A5AAFD0002E559F /* Measurements.m */,
+				743D0A821A59392100E50B62 /* MeasurementsWindowViewController.xib */,
+				74ACBF481A5ABB580083CD27 /* MeasurementsPhotoScrollViewController.xib */,
+				74FDA7701A5AA4B8002E559F /* Cell for MeasurementsWindowViewController */,
+			);
+			name = Measurements;
+			sourceTree = "<group>";
+		};
+		744799B41A5BF93500EFB145 /* Cell for Main Window */ = {
+			isa = PBXGroup;
+			children = (
+				74EE25A41A5CF6A7008949F6 /* MainWindowTableViewCell.h */,
+				74EE25A51A5CF6A7008949F6 /* MainWindowTableViewCell.m */,
+				744799B11A5BF92D00EFB145 /* MainWindowTableViewCell.xib */,
+			);
+			name = "Cell for Main Window";
+			sourceTree = "<group>";
+		};
+		74A056291A63C60500156CD8 /* One Day Information */ = {
+			isa = PBXGroup;
+			children = (
+				74A056351A63E21F00156CD8 /* OneDayInformation.h */,
+				74A056361A63E21F00156CD8 /* OneDayInformation.m */,
+			);
+			name = "One Day Information";
+			sourceTree = "<group>";
+		};
+		74A056381A63F25B00156CD8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74A056331A63D40600156CD8 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		74AAF3DE1A5697C80035A953 /* Cells for HeavyWeightDetailWindowViewController */ = {
+			isa = PBXGroup;
+			children = (
+				749469371A57C4BB003FB5E3 /* WeightRepsTableViewCell.h */,
+				749469381A57C4BB003FB5E3 /* WeightRepsTableViewCell.m */,
+				74AAF3CF1A56915F0035A953 /* NoteFieldTableViewCell.h */,
+				74AAF3D01A56915F0035A953 /* NoteFieldTableViewCell.m */,
+				74AAF3CC1A568C8D0035A953 /* NameFieldTableViewCell.h */,
+				74AAF3CD1A568C8D0035A953 /* NameFieldTableViewCell.m */,
+			);
+			name = "Cells for HeavyWeightDetailWindowViewController";
+			sourceTree = "<group>";
+		};
+		74C83C681A4E6E190093D5E0 /* Pictures */ = {
+			isa = PBXGroup;
+			children = (
+				74A056411A63F8BA00156CD8 /* Cardio.jpg */,
+				74A056431A63F8BA00156CD8 /* Food.jpg */,
+				74A056451A63F8BA00156CD8 /* Launch screen.jpg */,
+				74A056461A63F8BA00156CD8 /* Measurements.jpg */,
+				74A056481A63F8BA00156CD8 /* Weight training.jpg */,
+				74EE25B61A5D7421008949F6 /* For Main Window */,
+			);
+			name = Pictures;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		74EE25AF1A5D2643008949F6 /* All Infromation Shared Store */ = {
+			isa = PBXGroup;
+			children = (
+				74EE25B01A5D277E008949F6 /* AllInformationSharedStore.h */,
+				74EE25B11A5D277E008949F6 /* AllInformationSharedStore.m */,
+			);
+			name = "All Infromation Shared Store";
+			sourceTree = "<group>";
+		};
+		74EE25B61A5D7421008949F6 /* For Main Window */ = {
+			isa = PBXGroup;
+			children = (
+				74A056471A63F8BA00156CD8 /* MeasurementsIcon.jpg */,
+				74A056441A63F8BA00156CD8 /* FoodIcon.jpg */,
+				74A056421A63F8BA00156CD8 /* CardioIcon.jpg */,
+				74A056491A63F8BA00156CD8 /* WeightTrainingIcon.jpg */,
+			);
+			name = "For Main Window";
+			sourceTree = "<group>";
+		};
+		74FDA7701A5AA4B8002E559F /* Cell for MeasurementsWindowViewController */ = {
+			isa = PBXGroup;
+			children = (
+				74FDA76D1A5AA4AD002E559F /* MeasurementsFieldTableViewCell.h */,
+				74FDA76E1A5AA4AD002E559F /* MeasurementsFieldTableViewCell.m */,
+			);
+			name = "Cell for MeasurementsWindowViewController";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7436B50F1A4AB94A00075BB7 /* ForFit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7436B5331A4AB94A00075BB7 /* Build configuration list for PBXNativeTarget "ForFit" */;
+			buildPhases = (
+				7436B50C1A4AB94A00075BB7 /* Sources */,
+				7436B50D1A4AB94A00075BB7 /* Frameworks */,
+				7436B50E1A4AB94A00075BB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ForFit;
+			productName = ForFit;
+			productReference = 7436B5101A4AB94A00075BB7 /* ForFit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7436B5281A4AB94A00075BB7 /* ForFitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7436B5361A4AB94A00075BB7 /* Build configuration list for PBXNativeTarget "ForFitTests" */;
+			buildPhases = (
+				7436B5251A4AB94A00075BB7 /* Sources */,
+				7436B5261A4AB94A00075BB7 /* Frameworks */,
+				7436B5271A4AB94A00075BB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7436B52B1A4AB94A00075BB7 /* PBXTargetDependency */,
+			);
+			name = ForFitTests;
+			productName = ForFitTests;
+			productReference = 7436B5291A4AB94A00075BB7 /* ForFitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7436B5081A4AB94A00075BB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Gaydashevskiy Mikhail";
+				TargetAttributes = {
+					7436B50F1A4AB94A00075BB7 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = RNLZ9K4AC2;
+					};
+					7436B5281A4AB94A00075BB7 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 7436B50F1A4AB94A00075BB7;
+					};
+				};
+			};
+			buildConfigurationList = 7436B50B1A4AB94A00075BB7 /* Build configuration list for PBXProject "ForFit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7436B5071A4AB94A00075BB7;
+			productRefGroup = 7436B5111A4AB94A00075BB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7436B50F1A4AB94A00075BB7 /* ForFit */,
+				7436B5281A4AB94A00075BB7 /* ForFitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7436B50E1A4AB94A00075BB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74A0564D1A63F8BA00156CD8 /* FoodIcon.jpg in Resources */,
+				7436B5241A4AB94A00075BB7 /* LaunchScreen.xib in Resources */,
+				74A0564E1A63F8BA00156CD8 /* Launch screen.jpg in Resources */,
+				74610FC51A5152B0007C274F /* FoodDetailWindowViewController.xib in Resources */,
+				743D0A841A59392100E50B62 /* MeasurementsWindowViewController.xib in Resources */,
+				744799B31A5BF92D00EFB145 /* MainWindowTableViewCell.xib in Resources */,
+				74A056511A63F8BA00156CD8 /* Weight training.jpg in Resources */,
+				74A0564C1A63F8BA00156CD8 /* Food.jpg in Resources */,
+				74A056401A63F7A400156CD8 /* Images.xcassets in Resources */,
+				74A0564F1A63F8BA00156CD8 /* Measurements.jpg in Resources */,
+				74ACBF491A5ABB580083CD27 /* MeasurementsPhotoScrollViewController.xib in Resources */,
+				74A0564B1A63F8BA00156CD8 /* CardioIcon.jpg in Resources */,
+				74C83C741A4E7F3F0093D5E0 /* HeavyWeightWindowViewController.xib in Resources */,
+				74A056501A63F8BA00156CD8 /* MeasurementsIcon.jpg in Resources */,
+				74A0564A1A63F8BA00156CD8 /* Cardio.jpg in Resources */,
+				74A056521A63F8BA00156CD8 /* WeightTrainingIcon.jpg in Resources */,
+				74C83C631A4E68260093D5E0 /* TrainingTypeChoiceViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7436B5271A4AB94A00075BB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7436B50C1A4AB94A00075BB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7436B5191A4AB94A00075BB7 /* AppDelegate.m in Sources */,
+				74EE25B21A5D277E008949F6 /* AllInformationSharedStore.m in Sources */,
+				74FDA7731A5AAFD0002E559F /* Measurements.m in Sources */,
+				74F4035C1A4FCF2000772BFD /* Food.m in Sources */,
+				74EE25A61A5CF6A7008949F6 /* MainWindowTableViewCell.m in Sources */,
+				74C83C621A4E68260093D5E0 /* TrainingTypeChoiceViewController.m in Sources */,
+				74AAF3D11A56915F0035A953 /* NoteFieldTableViewCell.m in Sources */,
+				74610FC41A5152B0007C274F /* FoodDetailWindowViewController.m in Sources */,
+				74ACBF4C1A5ABC150083CD27 /* MeasurementsPhotoScrollViewController.m in Sources */,
+				743D0A831A59392100E50B62 /* MeasurementsWindowViewController.m in Sources */,
+				743D0A761A5921E900E50B62 /* CardioExercise.m in Sources */,
+				749469391A57C4BB003FB5E3 /* WeightRepsTableViewCell.m in Sources */,
+				744799AE1A5BF75300EFB145 /* MainWindowViewController.m in Sources */,
+				74A0563E1A63F75200156CD8 /* CardioTableViewCell.m in Sources */,
+				74C83C731A4E7F3F0093D5E0 /* HeavyWeightWindowViewController.m in Sources */,
+				74FDA76F1A5AA4AD002E559F /* MeasurementsFieldTableViewCell.m in Sources */,
+				743D0A791A59254100E50B62 /* CardioDetailViewController.m in Sources */,
+				74A056371A63E21F00156CD8 /* OneDayInformation.m in Sources */,
+				7436B5161A4AB94A00075BB7 /* main.m in Sources */,
+				74B0C67C1A55206C00751CEA /* HeavyWeightDetailWindowViewController.m in Sources */,
+				74A0563B1A63F6BA00156CD8 /* FoodWindowViewController.m in Sources */,
+				74A0562F1A63D31400156CD8 /* ForFit.xcdatamodeld in Sources */,
+				74B0C6791A55069D00751CEA /* HeavyWeightExercise.m in Sources */,
+				74AAF3CE1A568C8D0035A953 /* NameFieldTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7436B5251A4AB94A00075BB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7436B5301A4AB94A00075BB7 /* ForFitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7436B52B1A4AB94A00075BB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7436B50F1A4AB94A00075BB7 /* ForFit */;
+			targetProxy = 7436B52A1A4AB94A00075BB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7436B5221A4AB94A00075BB7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7436B5231A4AB94A00075BB7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7436B5311A4AB94A00075BB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7436B5321A4AB94A00075BB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7436B5341A4AB94A00075BB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ForFit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = ForFit;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		7436B5351A4AB94A00075BB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ForFit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = ForFit;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		7436B5371A4AB94A00075BB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ForFitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = ForFitTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ForFit.app/ForFit";
+			};
+			name = Debug;
+		};
+		7436B5381A4AB94A00075BB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ForFitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = ForFitTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ForFit.app/ForFit";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7436B50B1A4AB94A00075BB7 /* Build configuration list for PBXProject "ForFit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7436B5311A4AB94A00075BB7 /* Debug */,
+				7436B5321A4AB94A00075BB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7436B5331A4AB94A00075BB7 /* Build configuration list for PBXNativeTarget "ForFit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7436B5341A4AB94A00075BB7 /* Debug */,
+				7436B5351A4AB94A00075BB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7436B5361A4AB94A00075BB7 /* Build configuration list for PBXNativeTarget "ForFitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7436B5371A4AB94A00075BB7 /* Debug */,
+				7436B5381A4AB94A00075BB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		74A0562D1A63D31400156CD8 /* ForFit.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				74A0562E1A63D31400156CD8 /* ForFit.xcdatamodel */,
+			);
+			currentVersion = 74A0562E1A63D31400156CD8 /* ForFit.xcdatamodel */;
+			path = ForFit.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7436B5081A4AB94A00075BB7 /* Project object */;
+}

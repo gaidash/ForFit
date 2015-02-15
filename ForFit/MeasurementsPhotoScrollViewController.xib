@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MeasurementsPhotoScrollViewController">
+            <connections>
+                <outlet property="imageView" destination="9VY-SF-LZJ" id="xk7-OO-YBw"/>
+                <outlet property="scrollView" destination="ZTX-IX-5dn" id="tyh-2c-eKd"/>
+                <outlet property="view" destination="ZTX-IX-5dn" id="Bwm-Ne-w4D"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" maximumZoomScale="5" id="ZTX-IX-5dn">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9VY-SF-LZJ">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                </imageView>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="9VY-SF-LZJ" secondAttribute="bottom" id="2ch-7L-yUI"/>
+                <constraint firstItem="9VY-SF-LZJ" firstAttribute="leading" secondItem="ZTX-IX-5dn" secondAttribute="leading" id="CWn-0L-Abd"/>
+                <constraint firstAttribute="trailing" secondItem="9VY-SF-LZJ" secondAttribute="trailing" id="J39-5x-5AQ"/>
+                <constraint firstItem="9VY-SF-LZJ" firstAttribute="top" secondItem="ZTX-IX-5dn" secondAttribute="top" id="OSZ-Mx-JCr"/>
+                <constraint firstItem="9VY-SF-LZJ" firstAttribute="centerX" secondItem="ZTX-IX-5dn" secondAttribute="centerX" id="feS-eZ-rtN"/>
+                <constraint firstItem="9VY-SF-LZJ" firstAttribute="centerY" secondItem="ZTX-IX-5dn" secondAttribute="centerY" id="w59-83-3X7"/>
+            </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="2ch-7L-yUI"/>
+                    <exclude reference="CWn-0L-Abd"/>
+                    <exclude reference="J39-5x-5AQ"/>
+                    <exclude reference="OSZ-Mx-JCr"/>
+                    <exclude reference="feS-eZ-rtN"/>
+                    <exclude reference="w59-83-3X7"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=compact">
+                <mask key="constraints">
+                    <include reference="2ch-7L-yUI"/>
+                    <include reference="CWn-0L-Abd"/>
+                    <include reference="J39-5x-5AQ"/>
+                    <include reference="OSZ-Mx-JCr"/>
+                    <include reference="feS-eZ-rtN"/>
+                    <include reference="w59-83-3X7"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="delegate" destination="-1" id="cog-IO-4xf"/>
+            </connections>
+            <point key="canvasLocation" x="223" y="312"/>
+        </scrollView>
+    </objects>
+</document>
